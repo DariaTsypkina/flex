@@ -1,16 +1,17 @@
 body {
     font-weight: bold;
+    font-size: 1.7vh;
 }
 
 .header,
 .footer {
+    display: flex;
     height: 10vh;
     flex: 0 0 content;
     background-color: #E0E0E0;
 }
 
 .header {
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -29,6 +30,7 @@ body {
 
 .aside {
     display: flex;
+    flex: 0 0 content;
     justify-content: center;
     align-items: center;
     width: 30vw;
@@ -55,6 +57,7 @@ body {
 .more1,
 .more2,
 .more3 {
+    flex: 0 1 auto;
     background-color: #FEEAB9;
 }
 
@@ -64,21 +67,18 @@ body {
 
 .more1,
 .more2 {
-    height: 60%;
+    width: 50%;
+    height: 70%;
     margin: 0 1% 1% 1%;
-    flex-grow: 1;
     text-align: center;
-
 }
 
 .more3 {
-    height: 30%;
+    height: 35%;
     margin: 0 1% 1% 1%;
-    flex-grow: 1;
 }
 
 .footer {
-    display: flex;
     justify-content: space-between;
 }
 
